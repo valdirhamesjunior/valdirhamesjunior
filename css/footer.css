@@ -1,0 +1,45 @@
+.redes-sociais {
+  margin-bottom: 15px;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+}
+
+.footer-button {
+  margin-top: 35px;
+}
+
+.footer-button a {
+  background-color: #ff014f;
+  color: #1a1c20;
+  font-size: 2rem;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.footer-button a:hover {
+  background-color: #1a1c20;
+  color: #ff014f;
+}
+
+.footer-contato {
+  padding-left: 15px;
+  margin-top: 35px;
+}
+
+.footer-contato h2 {
+  font-size: 2rem;
+}
+
+.footer-contato p {
+  font-size: 1.25rem;
+  color: #a6b0c0;
+}
+
+.footer-contato span {
+  color: #ff014f;
+}

@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  color: #c4cfde;
+  cursor: default;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: linear-gradient(
+    to bottom,
+    #282b30,
+    #25282e,
+    #22262b,
+    #202329,
+    #1d2127
+  );
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a img {
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hr-graduacao {
+  background-color: #a6b0c0;
+}
+
+hr {
+  border: none;
+  height: 1.5px;
+  background-color: #121415;
+}
+
+#separador {
+  width: 2vw;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+}

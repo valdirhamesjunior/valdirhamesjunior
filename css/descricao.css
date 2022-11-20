@@ -1,0 +1,127 @@
+.topo-descricao {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  align-items: center;
+  padding-left: 15px;
+}
+
+.topo-descricao h1 {
+  font-size: 2.5rem;
+}
+
+.topo-descricao p {
+  font-size: 2rem;
+}
+
+.topo-titulo span {
+  color: #ff014f;
+}
+
+.topo-titulo p::after {
+  content: "|";
+  margin-left: 5px;
+  opacity: 1;
+  animation: pisca 0.7s infinite;
+}
+
+.topo-img img {
+  transition: transform 0.5s;
+}
+
+.topo-img img:hover {
+  transform: translateY(-10px);
+}
+
+.topo-skill {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 35px;
+  margin-bottom: 15px;
+}
+
+.topo-skill p {
+  padding-top: 15px;
+  font-size: 1.25rem;
+  color: #a6b0c0;
+}
+
+.topo-skill h4 {
+  font-size: 1.5rem;
+}
+
+.topo-html {
+  background-color: #1a1c20;
+  border-radius: 5px;
+  padding: 15px;
+  transition: transform 0.5s;
+  box-shadow: 0px 2px 10px rgb(3, 3, 3, 0.9);
+}
+
+.topo-html:hover {
+  background-color: #121316;
+  transform: translateY(-10px);
+  box-shadow: 0px 2px 10px rgb(3, 3, 3, 0.9);
+  border-bottom: 1px solid #ff014f;
+}
+
+.topo-uiux {
+  background-color: #1a1c20;
+  border-radius: 5px;
+  padding: 15px;
+  transition: transform 0.5s;
+  box-shadow: 0px 2px 10px rgb(3, 3, 3, 0.9);
+}
+
+.topo-uiux:hover {
+  background-color: #121316;
+  transform: translateY(-10px);
+  box-shadow: 0px 2px 10px rgb(3, 3, 3, 0.9);
+  border-bottom: 1px solid #ff014f;
+}
+
+.topo-suporte {
+  background-color: #1a1c20;
+  border-radius: 5px;
+  padding: 15px;
+  transition: transform 0.5s;
+  box-shadow: 0px 2px 10px rgb(3, 3, 3, 0.9);
+}
+
+.topo-suporte:hover {
+  background-color: #121316;
+  transform: translateY(-10px);
+  box-shadow: 0px 2px 10px rgb(3, 3, 3, 0.9);
+  border-bottom: 1px solid #ff014f;
+}
+
+.titulo-sobre-mim {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+}
+
+.titulo-sobre-mim span {
+  color: #ff014f;
+}
+
+.titulo-sobre-mim p::before {
+  content: "</>";
+  position: absolute;
+  color: #a6b0c0;
+  opacity: 25%;
+  z-index: -1;
+  left: 0px;
+}
+
+@keyframes pisca {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
